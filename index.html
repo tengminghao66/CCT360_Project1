@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minghao Teng | Personal Portfolio</title>
+  <meta name="description" content="Personal portfolio of Minghao Teng, a CCIT student at the University of Toronto working across product thinking, web design and content.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Minghao Teng</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="detail.html">Case Study</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="hero-grid">
+      <div class="hero-main">
+        <p class="eyebrow">Personal Portfolio 2026</p>
+        <h1>Welcome to My Digital World and Personal Page</h1>
+        <p class="subtitle">Second-year CCIT and TCS student at the University of Toronto, working across product thinking, web design and content.</p>
+        <a class="btn btn-light" href="detail.html">Explore projects &#8599;</a>
+      </div>
+      <aside class="hero-side" id="contact">
+        <h2>About Me</h2>
+        <p class="role-line">Student | Creative Developer | AIGC Creator</p>
+        <p>Based in Toronto. Fluent in English, Mandarin and Cantonese. Open to product and marketing internships.</p>
+        <h3 class="quick-links-title">Quick Links</h3>
+        <ul class="quick-links">
+          <li><a href="mailto:minghao.teng@mail.utoronto.ca">Email</a></li>
+          <li><a href="https://github.com/">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section aria-labelledby="work-title">
+      <h2 class="section-title" id="work-title">Selected work</h2>
+      <div class="cards-gallery">
+        <article class="card">
+          <div class="card-media"><img src="Images/Bookstore.jpg" alt="UofT Bookstore Redesign"></div>
+          <div class="card-body">
+            <p class="card-tag">01 / Web Design</p>
+            <h3>UofT Bookstore Redesign</h3>
+            <a class="btn" href="detail.html">Learn more</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"> <img src="Images/Brand.jpg" alt="Brand Analysis"></div>
+          <div class="card-body">
+            <p class="card-tag">02 / Brand Analysis</p>
+            <h3>American Eagle &ldquo;Great Jeans&rdquo;</h3>
+            <a class="btn" href="#">Learn more</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-media"> <img src="Images/Inner circle.jpg" alt="The Inner Circle"></div>
+          <div class="card-body">
+            <p class="card-tag">03 / World Building</p>
+            <h3>The Inner Circle</h3>
+            <a class="btn" href="#">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Minghao Teng</p>
+    <ul class="footer-links">
+      <li><a href="mailto:minghao.teng@mail.utoronto.ca">Email</a></li>
+      <li><a href="https://github.com/">GitHub</a></li>
+    </ul>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

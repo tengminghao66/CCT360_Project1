@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UofT Bookstore Redesign | Minghao Teng</title>
+  <meta name="description" content="Case study: redesigning the UofT Bookstore website for CCT260.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Minghao Teng</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="detail.html" aria-current="page">Case Study</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="detail-layout">
+    <section class="detail-hero">
+        <h1>UofT Bookstore Redesign</h1>
+        <p class="lead-text">A website audit and redesign of the University of Toronto Bookstore, an online store where the UofT community buys clothing, course materials and more. We found two places where the current design slows shoppers down and redesigned both.</p>
+    </section>
 
+    <section class="content-grid">
+        <article class="article-body">
+            <section>
+                <h2>The challenge</h2>
+                <h3>1. Category browsing pulls users away from the products</h3>
+                <p>The category and filter system is comprehensive, but unclear labels make it hard to use. Clicking a category also sends users to a separate page, so they cannot see products while they browse categories. This breaks two of Nielsen's heuristics: Flexibility and Efficiency of Use, and Match between System and the Real World.</p>
+                <h3>2. Saving a product takes an extra step</h3>
+                <p>"Add to Wishlist" only exists on the individual product page. Users cannot save items from the home page or category pages, which interrupts browsing and raises the interaction cost for anyone comparing several items. This also breaks Flexibility and Efficiency of Use.</p>
+                <img class="detail-img" src="Images/current.jpg" alt="Current UofT Bookstore category page">
+            </section>
+
+            <section>
+                <h2>The solution</h2>
+                <h3>1. Categories on the homepage, filters on the listing</h3>
+                <p>We redesigned both the homepage and the category page. Users can reach categories straight from the homepage. On the new category page they can apply filters and switch categories without leaving the product listing, so browsing and comparing stay continuous.</p>
+                <img class="detail-img" src="Images/Solution_1.png" alt="Redesigned homepage and category page">
+                <h3>2. A wishlist heart on every product card</h3>
+                <p>A heart icon now sits at the top of each product card. Users add items to their wishlist rigSOht from the listing, without opening the product page. That removes unnecessary navigation for people comparing products.</p>
+                <img class="detail-img" src="Images/Solution_2.png" alt="Product card with heart icon">
+            </section>
+
+            <section>
+                <h2>Results and key outcomes</h2>
+                <p>The redesign was delivered as an interactive Figma prototype covering the new homepage, category page and product cards.</p>
+                <p>Users can now switch categories and apply filters without leaving the product list, and save products to their wishlist in one click from the listing. Both changes target the two heuristic problems we found in the audit.</p>
+            </section>
+        </article>
+
+        <aside class="meta-sidebar" aria-label="Project details">
+            <dl>
+                <dt>Course</dt>
+                <dd>CCT260</dd>
+                <dt>Category</dt>
+                <dd>Website audit and redesign</dd>
+                <dt>Date</dt>
+                <dd>2026</dd>
+                <dt>Tools</dt>
+                <dd>Figma</dd>
+                <dt>Team</dt>
+                <dd>Minghao Teng</dd>
+                <dt>Links</dt>
+                <dd><a href="https://www.figma.com/proto/4afe5IYvMmdvEkHn2dQ3Fy/CCT260_Group1_Minghao-Teng_Yuzhe-Wang_Xinyue-Ma?node-id=0-1&amp;t=fCvTJPHI8u08iY2g-1">Figma prototype</a></dd>
+                <dd><a href="https://www.figma.com/design/4afe5IYvMmdvEkHn2dQ3Fy/CCT260_Group1_Minghao-Teng_Yuzhe-Wang_Xinyue-Ma?node-id=0-1&amp;t=fCvTJPHI8u08iY2g-1">Figma design file</a></dd>
+            </dl>
+        </aside>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <p>&copy; 2026 Minghao Teng</p>
+    <ul class="footer-links">
+      <li><a href="mailto:minghao.teng@mail.utoronto.ca">Email</a></li>
+      <li><a href="https://github.com/">GitHub</a></li>
+    </ul>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
